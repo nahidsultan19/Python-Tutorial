@@ -3,8 +3,8 @@ from tkinter import *
 import time
 
 def tick():
-	time_string = time.strftime('%H:%M:%S')
-	clock.config(text = time_string)
+	now_time = time.strftime('%H:%M:%S')
+	clock.config(text = now_time)
 	clock.after(200, tick)
 
 
