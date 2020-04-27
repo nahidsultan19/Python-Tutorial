@@ -11,8 +11,6 @@ def times():
 	clock.config(text = now_time)
 	clock.after(200, times)
 
-
-
 times()
 app.title('Digital Clock')
 app.mainloop()

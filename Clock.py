@@ -14,7 +14,5 @@ def times():
 
 
 times()
-
-
 app.title('Digital Clock')
 app.mainloop()
