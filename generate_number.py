@@ -17,8 +17,10 @@ class generate_number:
 			self.min +=1
 			return self.min -1
 
-numbers = generate_number(10,50)
+numbers = generate_number(0,50)
 numbers.__next__()
 
-for i in numbers:
-	print(i)
+[print(i) for i in numbers]
+
+# for i in numbers:
+# 	print(i)
